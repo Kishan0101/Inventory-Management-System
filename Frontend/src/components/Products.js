@@ -12,7 +12,7 @@ export default function Products() {
     const getProducts = async (e) => {
 
         try {
-            const res = await fetch("https://inventory-management-system-in0609t8f-kishan0101s-projects.vercel.app/products", {
+            const res = await fetch("https://inventory-management-system-1eu2.onrender.com/products", {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json"
@@ -35,7 +35,7 @@ export default function Products() {
 
     const deleteProduct = async (id) => {
 
-        const response = await fetch(`https://inventory-management-system-in0609t8f-kishan0101s-projects.vercel.app/deleteproduct/${id}`, {
+        const response = await fetch(`https://inventory-management-system-1eu2.onrender.com/deleteproduct/${id}`, {
             method: "DELETE",
             headers: {
                 "Content-Type": "application/json"
