@@ -34,7 +34,7 @@ export default function InsertProduct() {
         setError("");
 
         try {
-            const res = await fetch("https://inventory-management-system-in0609t8f-kishan0101s-projects.vercel.app/insertproduct", {
+            const res = await fetch("https://inventory-management-system-1eu2.onrender.com/insertproduct", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
